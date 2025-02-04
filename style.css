@@ -1,0 +1,125 @@
+body {
+    background-color: #1A2D42;
+}
+.h1 {
+    background-color: #2e4156;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    height: 300px;
+    width: 1920px;
+}
+.logo {
+    background-image: url('logo.png');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -40px;
+    left: 450px;
+}
+.hinh1 {
+    background-image: url('hinh1.webp');
+    background-size: cover;
+    height: 302px;
+    width: 602px;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    border: 0px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    transition: transform 0.6s, border 0.6s;
+}
+.hinh1:hover {
+    transform: scale(1.01);
+    border: 5px;
+    border: 1px solid black;
+}
+.gioithieu {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Itim", serif;
+    position: absolute;
+    top: 10px;
+    left: -350px;
+    height: auto;
+    width: 350px;
+}
+.hinh2 {
+    background-image: url('hinh2.webp');
+    background-size: cover;
+    height: 270px;
+    width: 502px;
+    position: absolute;
+    top: 512px;
+    left: 450px;
+    border: 0px;
+    border-radius: 20px;
+    transition: transform 0.6s, border 0.6s;
+}
+.hinh2:hover {
+    transform: scale(1.01);
+    border: 1px solid black;
+}
+.cauhinh {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Itim", serif;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    height: auto;
+    width: 350px;
+}
+.hinh3 {
+    background-image: url('hinh3.webp');
+    background-size: cover;
+    height: 270px;
+    width: 502px;
+    position: absolute;
+    top: 812px;
+    left: 900px;
+    border: 0px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    transition: transform 0.6s, border 0.6s;
+}
+.hinh3:hover {
+    transform: scale(1.01);
+    border: 1px solid black;
+}
+.thongtin {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Itim", serif;
+    position: absolute;
+    top: 10px;
+    left: -450px;
+    height: auto;
+    width: 350px;
+}
+.discordicon {
+    background-image: url('discorffd.webp');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 48px;
+    left: 912px;
+    transition: transform 0.3s;
+}
+
+/* Đặt chiều cao và chiều rộng cho thẻ <a> */
+.discordicon a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.discordicon:hover {
+    transform: scale(1.1);
+}
